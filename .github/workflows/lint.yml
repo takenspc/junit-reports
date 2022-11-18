@@ -10,7 +10,7 @@ jobs:
       - name: Use node.js
         uses: actions/setup-node@v3.5.1
         with:
-          node-version: lts
+          node-version: 18
       - name: Install dependencies
         run: npm ci
       - name: Run lint

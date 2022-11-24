@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "lint": "textlint -f custom-formatter.js -o reports/textlint.xml **/*.md"
+    "lint": "textlint -f ./custom-formatter.js -o reports/textlint.xml **/*.md"
   },
   "repository": {
     "type": "git",

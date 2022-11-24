@@ -1,0 +1,24 @@
+{
+  "name": "junit-reports",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "textlint -f ./custom-formatter.js -o reports/textlint.xml **/*.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/takenspc/junit-reports.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/takenspc/junit-reports/issues"
+  },
+  "homepage": "https://github.com/takenspc/junit-reports#readme",
+  "devDependencies": {
+    "textlint": "^12.2.3",
+    "textlint-rule-no-todo": "^2.0.1"
+  }
+}
